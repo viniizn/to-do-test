@@ -8,10 +8,10 @@ import to_do.example.to_do.repository.TodoRepository;
 import java.util.List;
 
 @Service
-public class toDoService {
+public class ToDoService {
     private TodoRepository todoRepository;
 
-    public toDoService(TodoRepository todoRepository) {
+    public ToDoService(TodoRepository todoRepository) {
         this.todoRepository = todoRepository;
     }
 
