@@ -13,6 +13,13 @@ public class ToDo {
     private boolean realizado;
     private int prioridade;
 
+    public ToDo(String name, String description, boolean realizado, int prioridade) {
+        this.name = name;
+        this.description = description;
+        this.realizado = realizado;
+        this.prioridade = prioridade;
+    }
+
     public Long getId() {
         return id;
     }
